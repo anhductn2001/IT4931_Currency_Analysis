@@ -1,7 +1,7 @@
 {
-  "name": "currency-analysis-master",
+  "name": "node",
   "version": "1.0.0",
-  "description": "This system is a big data pipeline to analyze real-time prices of digital currencies, like bitcoin, litecoin, and etc. Considering large amounts of transactions happening every second, big data frameworks (HBase, Kafka, Spark, etc.) are used to build an efficient real-time pipeline to track currency prices.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3",
+    "bootstrap": "^4.3.1",
     "d3": "^3.5.17",
-    "express": "^4.17.2",
-    "gdax": "^0.9.0",
-    "jquery": "^3.6.0",
-    "minimist": "^1.2.5",
+    "express": "^4.16.4",
+    "jquery": "^3.4.1",
+    "minimist": "^1.2.0",
     "nvd3": "^1.8.6",
-    "redis": "^4.0.1",
-    "socket.io": "^4.4.0"
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0"
   }
 }
